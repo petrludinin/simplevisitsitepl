@@ -17,6 +17,17 @@ nav {
     text-align: center;
     padding: 10px;
 }
+nav ol {
+    list-style: none;        /* убираем цифры */
+    margin: 0;
+    padding: 0;
+    display: flex;           /* делаем горизонтальным */
+    justify-content: center; /* выравнивание по центру */
+}
+
+nav ol li {
+    margin: 0 15px;          /* расстояние между пунктами */
+}
 
 nav a {
     color: white;
@@ -56,3 +67,4 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
