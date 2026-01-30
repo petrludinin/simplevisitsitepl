@@ -5,6 +5,7 @@ body {
     color: #333;
 }
 
+
 header {
     background-color: #4a6cf7;
     color: white;
@@ -12,33 +13,36 @@ header {
     padding: 30px 10px;
 }
 
+
 nav {
     background-color: #333;
-    text-align: center;
-    padding: 10px;
+    padding: 10px 0;
 }
+
 nav ol {
-    list-style: none;        /* убираем цифры */
+    list-style: none;           
     margin: 0;
     padding: 0;
-    display: flex;           /* делаем горизонтальным */
-    justify-content: center; /* выравнивание по центру */
+    display: flex;               
+    justify-content: center;     
+    align-items: center;
 }
 
 nav ol li {
-    margin: 0 15px;          /* расстояние между пунктами */
+    margin: 0 15px;              
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
     font-weight: bold;
+    font-size: 16px;
 }
 
 nav a:hover {
     color: #4a6cf7;
 }
+
 
 section {
     padding: 30px;
@@ -50,7 +54,9 @@ section img {
     display: block;
     margin: 15px auto;
     border-radius: 50%;
+    max-width: 150px;
 }
+
 
 h1, h2 {
     text-align: center;
@@ -67,4 +73,3 @@ footer {
     text-align: center;
     padding: 15px;
 }
-
